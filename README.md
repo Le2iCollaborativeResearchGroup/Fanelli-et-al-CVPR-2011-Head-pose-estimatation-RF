@@ -19,6 +19,11 @@ Fanelli, Dantone, Gall, Fossati and Van Gool, "Random forests for real time 3D f
 # Highlight
 
 ---------------------------
+* Why they need to define their Random regression forests instead of using the classical ones 
+* What are the main difference between RF classifier and regression 
+* The main parameters to keep in mind for constructing application based RF regression
+* Main difference and comparison between this RF regression and classical RF 
+* Question: the testing section 3.2.5 of journal paper is not clear 
 
 # Discussions
 
