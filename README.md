@@ -62,12 +62,16 @@ Fanelli, Dantone, Gall, Fossati and Van Gool, "Random forests for real time 3D f
 	- subsample data set, also features? i.e. for a feature set [x1,…,xn] train a decision tree with only [x2,x3]?
 2. Add a smoothness constraint in the pose determination? 
 since the method is real time, assuming the head is detected in each consecutive frame, the pose should vary smoothly i.e. have a smooth transition between frames. If the video is observed, around the 1:05 mark, the normal vectors jumps. This is because the computation is for each frame, independently of the previous. 
+3. Observe when variance is high in the video of real time working of the system.
+
 
  # Questions
 
 ---------------------------
 
 1. Why 2.5D output of the range scanner? (pg. 618) probably Cansen
-2. What happens with multiple faces/objects in the field of view? (no head detection algorithm implemented)- multiple hypotheses possible? (they assume head has been detected, so perhaps not addressed or not aimed to be addressed in this paper/implementation)
+2. Range images - resolution 640x480 pixels in ETH data set. Why is the resolution of range images not 3D, and correct to say pixels, or points? Information obtained is point cloud.
+3. What are integral images? (pg. 621)
+3. What happens with multiple faces/objects in the field of view? (no head detection algorithm implemented)- multiple hypotheses possible? (they assume head has been detected, so perhaps not addressed or not aimed to be addressed in this paper/implementation)
 
 
