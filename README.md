@@ -34,11 +34,11 @@ Fanelli, Dantone, Gall, Fossati and Van Gool, "Random forests for real time 3D f
 	- facial analysis
 
 4. Existing Methods:
-  4.1 2-D
+  1. 2-D
 	- brightness
 	- tracking features
 	- annotation
-  4.2 3-D
+  2. 3-D
 	- require manual initialization 
 	- cannot handle large pose variations
 	- not real time
